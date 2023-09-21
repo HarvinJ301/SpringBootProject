@@ -1,0 +1,20 @@
+--Users
+INSERT INTO USER_TABLE (user_id, firstName, lastName, username, password, userType) VALUES (NEXTVAL('user_id_seq'), 'test', 'test', 'admin', '12345', 'admin')
+
+
+-- Questions
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Premier League', 'Aston Villa', 'Theo', 'Aston Villa', 'How good is Unai as a manager?', 'To answer this look how good his first year was at Aston Villa and how good they have started the season', 'true', 'Premier League');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'La Liga', 'Real Madrid', 'Jose', 'Real Madrid', 'How good is Jude Bellingham', 'Already from what we have seen he has the ability to be one of footballs greatest', 'true', 'LaLiga, Jude Bellingham, Real Madrid');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Ligue 1', 'Paris Saint Germain', 'Dave', 'Manchester City', 'With Messi now leaving the team is it a positive or negative?', 'Time will tell', 'true', 'Messi, PSG');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Bundesliga', 'Bayern Munich', 'Thomas', 'Dortmund', 'How can we compete within the league with the amount of money Bayern spend', 'Although Bayern spend more look only to last year where it was in your hands to win the league until the draw on the last day, it can happen', 'true', 'money');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Premier League', 'Luton Town', 'John', 'Luton Town', 'Is anyone else just enjoying the ride up in the Prem?', '-No Answer', 'false', 'Premier League');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'League 1', 'Derby County', 'Cameron', 'Derby County', 'Does anyone think we are going to be stuck in League 1 for a while?', ' Unfortunately, most likely!', 'true', 'Derby, League 1');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Premier League', 'Chelsea', 'Rob', 'Manchester United', 'Are Chelsea able to spend whatever they like or what?', '-No Answer', 'false', 'Chelsea, Money');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'International Football', 'England', 'Ajay', 'Brighton', 'Why is Maguire still be selected by Southgate if he doesnt play regularly for his club?', 'No one knows', 'true', 'England, Southgate');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Premier League', 'Arsenal', 'Ricky', 'Liverpool', 'Do you think Arteta is right with being able to sub in and out the GK game from game?', '-No Answer', 'false', 'Arteta, Goalkeeping');
+INSERT INTO QUESTION (question_id, league, footballTeam, askedBy, teamUserWhoAskedSupports, questionAsked, questionAnswer, answered, keywords) VALUES (NEXTVAL('question_id_seq'), 'Europa League', 'Liverpool', 'Andy', 'Liverpool', 'With our squad loads are Champions League level should we easily win the Europa and anything less is failure?', 'Yes it is a must win with the players Liverpool have', 'true', 'Europa league, Liverpool');
+
+
+
+
+
