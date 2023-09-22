@@ -8,26 +8,6 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-QformDiscoveryServerApplication<qform-discovery-server>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.upskill.qformdiscoveryserver.QformDiscoveryServerApplication",
-            "projectName": "qform-discovery-server",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-QformClientApplication<qform-client>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.upskill.qformclient.QformClientApplication",
-            "projectName": "qform-client",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
             "name": "Spring Boot-QformApplication<qform>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
