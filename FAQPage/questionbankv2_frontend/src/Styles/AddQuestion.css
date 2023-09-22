@@ -1,0 +1,15 @@
+.submit-button {
+    width: 200px;
+    transition-duration: 0.4s;
+    background-color: #424242;
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+  }
+
+  @media (max-width: 780px) {
+    .submit-button {
+      margin: 1%;
+      width: 30%;
+      font-size: small;
+    }
+  }

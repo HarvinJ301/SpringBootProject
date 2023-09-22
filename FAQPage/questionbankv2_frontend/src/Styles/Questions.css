@@ -1,0 +1,184 @@
+.searchBarDiv{
+    width: 100%;
+    background-color: #333;
+}
+
+h1{
+    font-weight: bolder;
+    color: black;
+
+}
+
+.searchBarForm{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+#searchBar{
+        padding: 8px;
+        width: 30%;
+        border-radius: 20px;
+        margin: 4px;    
+        background-color: #ffffff;  
+}
+
+#searchButton{
+    height: auto;
+    width: auto;
+    margin: 4px;
+    margin-right: 12px;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+#filterDropdownForm{
+    margin-top: 30px;
+}
+
+.filterDropdown{
+    margin: 2px;
+    width: 15%;
+    height: 15%;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+
+.refreshButton{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+.products-container {
+    margin: 30px 0px;
+    width: 100%;
+  
+   
+
+}
+
+.products-container h2.products-heading {
+    color: #17BC9D;
+    font-size: 36px;
+}
+
+.products-container p.products-par {
+    font-size: 18px;
+    color: #333;
+}
+
+.products-section {
+    margin: 25px auto;
+    padding-bottom: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 12.5% 1fr 12.5%;
+    
+    /* grid-gap: 25px; */
+}
+
+.products-section .space-banner {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 10%;
+}
+
+.products-section .ad-banner {
+    width: 10%;
+    overflow: hidden;
+}
+
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    column-gap: 150px;
+    row-gap: 50px;
+    grid-auto-flow: row;
+    justify-items: center;
+    border-top: 4px solid #17BC9D;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+}
+
+.default{
+    color: #333;
+}
+
+@media(min-width: 1700px){
+    .filterDropdown{
+        font-size: large;
+    }
+}
+
+@media(max-width: 1460px){
+    .filterDropdown{
+        font-size: small;
+    }
+}
+
+@media(max-width: 1180px){
+    .filterDropdown{
+        font-size:x-small;
+    }
+}
+
+@media(max-width: 1010px){
+    .filterDropdown{
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        width: 50%;
+    }
+
+    #filterDropdownForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}    
+
+@media(max-width: 840px){
+    .products-list{
+        row-gap: 50px;
+    }
+}
+
+@media(max-width: 420px){
+    #searchBar{
+        font-size: x-small;
+    }
+    .filterDropdown{
+        font-size: small;
+    }
+}
+
+@media(max-width: 350px){
+    .filterDropdown{
+        font-size: x-small;
+    }
+
+    .products-section{
+        grid-template-columns: 5% 1fr 5%;
+    }
+    .products-section .space-banner{
+        width: 3%
+    }
+
+    .products-section .ad-banner{
+        width:3%
+    }
+}
+
+

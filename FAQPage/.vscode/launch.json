@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QuestionBankApiApplication",
+            "request": "launch",
+            "mainClass": "com.upskill.questionBankAPI.QuestionBankApiApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QformDiscoveryServerApplication<qform-discovery-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.upskill.qformdiscoveryserver.QformDiscoveryServerApplication",
+            "projectName": "qform-discovery-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QformClientApplication<qform-client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.upskill.qformclient.QformClientApplication",
+            "projectName": "qform-client",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QformApplication<qform>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.upskill.qform.QformApplication",
+            "projectName": "qform",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QuestionBankApiApplication<questionBankAPI (2)>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.upskill.questionBankAPI.QuestionBankApiApplication",
+            "projectName": "questionBankAPI (2)",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QuestionBankApiApplication<questionBankAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.upskill.questionBankAPI.QuestionBankApiApplication",
+            "projectName": "questionBankAPI",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QuestionBankApiApplication<questionBankAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.upskill.questionBankAPI.QuestionBankApiApplication",
+            "projectName": "questionBankAPI",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
