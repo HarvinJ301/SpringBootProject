@@ -9,7 +9,7 @@ const Footer = () =>{
             <ul class="socials">
             <li><a href="https://www.linkedin.com/in/harvin-johal/"><FaLinkedin/></a></li>
             <li><a href="https://github.com/HarvinJ301"><AiFillGithub/></a></li>
-            <li><a href="d:\CV website stuff\CV updated to white.pdf" download>CV</a></li>
+            {/* <li><a href="d:\CV website stuff\CV updated to white.pdf" download>CV</a></li> */}
             </ul>
 
         </div>
